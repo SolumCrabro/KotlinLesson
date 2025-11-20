@@ -29,7 +29,7 @@
             app:cardCornerRadius="160dp">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/avatar_300" />
@@ -62,7 +62,7 @@
                 android:layout_height="match_parent"
                 android:background="#FDD400"
                 android:gravity="center"
-                android:text="Аватар"
+                android:text="@string/logo"
                 android:textColor="@color/black"
                 android:textSize="42sp" />
         </androidx.cardview.widget.CardView>
@@ -94,9 +94,10 @@
                 android:layout_height="match_parent"
                 android:backgroundTint="#FFD600"
                 android:gravity="center"
-                android:text="Привет"
+                android:text="@string/text_button"
                 android:textColor="@color/black"
-                android:textSize="32sp" />
+                android:textSize="32sp"
+                />
         </androidx.cardview.widget.CardView>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
