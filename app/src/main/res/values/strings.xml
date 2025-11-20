@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">KotlinLesson</string>
+    <string name="logo">Аватар</string>
+    <string name="text_button">Привет</string>
 </resources>
